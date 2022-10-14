@@ -18,4 +18,6 @@ if __name__ == '__main__':
     h_number = int(input("Enter human number: "))
     t.set_human_num(h_number)
     print(t)
-
+    a_number = input("Enter alien number from that base: ")
+    t.set_alien_num(a_number)
+    print(t)
